@@ -23,6 +23,10 @@ i {
     text-align: center;
 }
 
+i::before{
+    content: none;
+}
+
 a {
     text-decoration: none;
 }
