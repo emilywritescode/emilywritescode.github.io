@@ -1,18 +1,42 @@
-h1 {
-    font-size: 500%;
+.name {
+    font-size: 50px;
     font-family: 'Merriweather';
     text-align: center;
     line-height: 10px;
-    margin-top: 15%;
 }
 
-p {
-    font-size: 150%;
+.tagline {
+    font-size: 25px;
     font-family: 'Source Code Pro';
     text-align: center;
 }
 
-html{
+.links {
+    margin-top: 100px;
+    text-align: center;
+}
+
+i {
+    font-size: 2em;
+    margin: 0 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+html {
+    margin-top: 100px;
     background: linear-gradient(270deg, #f6eef6, #df80ff, #ffb3ff, #bf80ff, #f2ccff, #ecb3ff);
     background-size: 1000% 1000%;
     -webkit-animation: bgani 40s ease infinite;
