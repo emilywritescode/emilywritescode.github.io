@@ -1,0 +1,34 @@
+h1 {
+    font-size: 5em;
+    font-family: 'Merriweather';
+}
+p {
+    font-size: 2em;
+    font-family: 'Satisfy';
+}
+body{
+    text-align: center;
+}
+html{
+    background: linear-gradient(270deg, #ddc4dd, #b0a0e1, #a997df, #ddc4dd, #d7cff0) fixed;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 56%}
+        50%{background-position:100% 45%}
+        100%{background-position:0% 56%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 56%}
+        50%{background-position:100% 45%}
+        100%{background-position:0% 56%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 56%}
+        50%{background-position:100% 45%}
+        100%{background-position:0% 56%}
+    }
+}
