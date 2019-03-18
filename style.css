@@ -1,34 +1,37 @@
 h1 {
-    font-size: 5em;
+    font-size: 500%;
     font-family: 'Merriweather';
+    text-align: center;
+    line-height: 10px;
+    margin-top: 15%;
 }
+
 p {
-    font-size: 2em;
-    font-family: 'Satisfy';
-}
-body{
+    font-size: 150%;
+    font-family: 'Source Code Pro';
     text-align: center;
 }
+
 html{
-    background: linear-gradient(270deg, #ddc4dd, #b0a0e1, #a997df, #ddc4dd, #d7cff0) fixed;
+    background: linear-gradient(270deg, #f6eef6, #df80ff, #ffb3ff, #bf80ff, #f2ccff, #ecb3ff);
+    background-size: 1000% 1000%;
+    -webkit-animation: bgani 40s ease infinite;
+    -moz-animation: bgani 40s ease infinite;
+    animation: bgani 40s ease infinite;
+}
 
-    -webkit-animation: AnimationName 10s ease infinite;
-    -moz-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
-
-    @-webkit-keyframes AnimationName {
-        0%{background-position:0% 56%}
-        50%{background-position:100% 45%}
-        100%{background-position:0% 56%}
-    }
-    @-moz-keyframes AnimationName {
-        0%{background-position:0% 56%}
-        50%{background-position:100% 45%}
-        100%{background-position:0% 56%}
-    }
-    @keyframes AnimationName {
-        0%{background-position:0% 56%}
-        50%{background-position:100% 45%}
-        100%{background-position:0% 56%}
-    }
+@-webkit-keyframes bgani {
+    0%{background-position:23% 0%}
+    50%{background-position:78% 100%}
+    100%{background-position:23% 0%}
+}
+@-moz-keyframes bgani {
+    0%{background-position:23% 0%}
+    50%{background-position:78% 100%}
+    100%{background-position:23% 0%}
+}
+@keyframes bgani {
+    0%{background-position:23% 0%}
+    50%{background-position:78% 100%}
+    100%{background-position:23% 0%}
 }
