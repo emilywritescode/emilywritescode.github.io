@@ -1,26 +1,30 @@
 .name {
-    font-size: 50px;
+    text-shadow: 1px 1px white;
+    font-size: 40px;
     font-family: 'Merriweather';
-    text-align: center;
     line-height: 10px;
 }
 
 .tagline {
     font-size: 25px;
     font-family: 'Source Code Pro';
-    text-align: center;
+}
+
+.info{
+    margin-top: 150px;
+    font-size: 18px;
+    font-family: 'Merriweather Sans';
 }
 
 .links {
-    margin-top: 100px;
-    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
 }
 
-i {
-    font-size: 2em;
-    margin: 0 10px;
+.links i{
+    padding: 10px;
     display: inline-block;
-    text-align: center;
+    font-size: 40px;
 }
 
 i::before{
@@ -36,30 +40,11 @@ a:link, a:visited {
 }
 
 a:hover {
-    opacity: 0.75;
+    color: white;
 }
 
 html {
+    text-align: center;
     margin-top: 100px;
-    background: linear-gradient(270deg, #f6eef6, #df80ff, #ffb3ff, #bf80ff, #f2ccff, #ecb3ff);
-    background-size: 1000% 1000%;
-    -webkit-animation: bgani 40s ease infinite;
-    -moz-animation: bgani 40s ease infinite;
-    animation: bgani 40s ease infinite;
-}
-
-@-webkit-keyframes bgani {
-    0%{background-position:23% 0%}
-    50%{background-position:78% 100%}
-    100%{background-position:23% 0%}
-}
-@-moz-keyframes bgani {
-    0%{background-position:23% 0%}
-    50%{background-position:78% 100%}
-    100%{background-position:23% 0%}
-}
-@keyframes bgani {
-    0%{background-position:23% 0%}
-    50%{background-position:78% 100%}
-    100%{background-position:23% 0%}
+    background: rgba(90, 80, 255, 0.8);
 }
