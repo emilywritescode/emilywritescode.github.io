@@ -1,8 +1,21 @@
+html {
+    text-align: center;
+    background: rgba(90, 80, 255, 0.8);
+}
+
+
+.content {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .name {
-    text-shadow: 1px 1px white;
-    font-size: 50px;
+    text-shadow: 5px 5px #5B58BB;
+    font-size: 45px;
     font-family: 'Merriweather';
-    line-height: 10px;
 }
 
 .tagline {
@@ -12,34 +25,22 @@
 }
 
 .links {
-    margin-top: 150px;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .links i{
-    padding: 10px;
+    padding: 25px;
     display: inline-block;
     font-size: 50px;
+    position: relative;
+    text-decoration: none;
 }
 
 i::before{
     content: none;
 }
 
-a {
+a:link, a:visited, a:hover {
     text-decoration: none;
-}
-
-a:link, a:visited {
     color: black;
-}
-
-a:hover {
-    color: white;
-}
-
-html {
-    text-align: center;
-    margin-top: 100px;
-    background: rgba(90, 80, 255, 0.8);
 }
